@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Drum Kit</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="drum_icon.png" />
+        <script defer src = "drum_kit.js"></script>
+    </head>
+    <body>
+        <div class="title">JS Drum Kit</div>
+        <div class="keys">
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sound" id="key_65"></span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound" id="key_83"></span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound" id="key_68"></span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound" id="key_70"></span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound" id="key_71"></span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound" id="key_72"></span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound" id="key_74"></span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound" id="key_75"></span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound" id="key_76"></span>
+            </div>
+        </div>
+
+        <audio data-key="clap" src="Sounds/clap.wav"></audio>
+        <audio data-key="hihat" src="Sounds/one-shot-drum-closed-hat-punchy.wav"></audio>
+        <audio data-key="kick" src="Sounds/clean-vintage-attack-kick_130bpm_C_minor.wav"></audio>
+        <audio data-key="openhat" src="Sounds/one-shot-drum-open-hat-short.wav"></audio>
+        <audio data-key="boom" src="Sounds/boom.wav"></audio>
+        <audio data-key="ride" src="Sounds/ride.wav"></audio>
+        <audio data-key="snare" src="sounds/snare-slap-energetic-drum.wav"></audio>
+        <audio data-key="tom" src="sounds/tom.wav"></audio>
+        <audio data-key="tink" src="sounds/tink.wav"></audio>
+
+    </body>
+</html>
